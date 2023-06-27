@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MassAdoption</title>
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+  </head>
+  
+
+  <body onload="checkCookie()">
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" ><img src="images/logo.png" id="navbar__logo" alt=""></a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="home-page">Our Mission</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links" id="about-page">Our Team</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#v4v" class="navbar__links" id="services-page"
+              >Donate</a
+            >
+          </li>
+          <li class="navbar__btn">
+            <a href="https://www.meetup.com/massachusetts-bitcoin-meetup/" class="button" id="signup" target="_blank">Come To A Meetup</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+      <div class="hero__container">
+        <h1 class="hero__heading">Welcome To <span>MassAdoption:</span> A Bitcoin Meetup</h1>
+        <p class="hero__description">Our mission is to help others leverage Bitcoin to improve their financial freedom. We believe creating circular bitcoin economies is the key to a better world. We would love to have you join our mission by donating, joining the discord, or coming to a meetup. Scroll down to learn more about Mass Adoption.</p>
+        <button class="main__btn"><a href="https://discord.gg/s9XqArewaH" target="_blank">Join The Discord</a></button>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="main" id="about">
+      <div class="main__container">
+        <div class="main__img--container">
+          <div class="main__img--card"><img src="images/MassAdoption event.png_small" alt=""></div>
+        </div>
+        <div class="main__content">
+          <h1>What do we do?</h1>
+          <h2>We help Bitcoiners connect in person and we help Businesses accept bitcoin</h2>
+          <p>All our code is open source and you can find the github for this website in the footer.</p>
+          <button class="main__btn"><a href="#">Support our Devs</a></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services Section -->
+    <div class="services" id="services">
+      <h1>Resources</h1>
+      <div class="services__wrapper">
+        <div class="services__card">
+          <h2>Bitcoin For Local Business</h2>
+          <p>This PDF is for merchants looking to accept sats</p>
+          <div class="services__btn"><button>Get Started</button></div>
+        </div>
+        <div class="services__card">
+          <h2>MassAdoption Substack</h2>
+          <p>Reflections from attendees of MassAdoption events</p>
+          <div class="services__btn"><button>Get Started</button></div>
+        </div>
+        <div class="services__card">
+          <h2>Meet The Team</h2>
+          <p>Use this page to find us on Twitter or read our bios</p>
+          <div class="services__btn"><button>Get Started</button></div>
+        </div>
+        <div class="services__card">
+          <h2>Looking Glass</h2>
+          <p>Quality website for financial and Bitcoin education</p>
+          <div class="services__btn"><button>Get Started</button></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="main" id="sign-up">
+      <div class="main__container">
+        <div class="main__content">
+          <h1>MassAdoption</h1>
+          <h2>A Bitcoin Meetup</h2>
+          <p>
+            Bitcoin is a powerful tool that enables liberty and freedom by breaking the cycle of control and manipulation caused by a broken monetary system. Controlled by a few, money leaves the rest in debt, but Bitcoin offers hope for taking control of our own destiny. With its decentralized, permissionless, and fixed nature, Bitcoin empowers individuals to challenge the existing power structures and create a world where financial power lies in the hands of the people, not the bankers and politicians. Bitcoin meetups play a vital role in promoting this vision, providing opportunities to learn about Bitcoin's benefits, connect with like-minded individuals, and explore innovative ways to invest in and utilize the digital currency. Active participation in local Bitcoin communities fosters awareness, understanding, and the movement toward decentralized financial systems, contributing to the quest for financial freedom and self-sovereignty.</p>
+          <button class="main__btn"><a href="#">Freedom Festival 2024</a></button>
+        </div>
+        <div class="main__img--container">
+          <div class="main__img--card" id="card-2">
+            <img src="images/justacalculator.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tip Button -->
+    <div class="v4v" id="v4v">
+      <lightning-widget 
+      name="MassAdoption" 
+      accent="#ffa200" 
+      to="massadoption@getalby.com" 
+      image="https://nostr.build/p/nb2536.jpeg" 
+      amounts="1000, 2100, 21000"
+      labels="Minuteman, Patriot, TRUE AMERICAN" 
+    />
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+      <div class="footer__links">
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>About Us</h2>
+            <a href="/sign__up">The Team</a> <a href="/"></a>
+            <a href="/">Careers</a> <a href="/">Terms of Service</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Contact Us</h2>
+            <a href="/">Via Email</a> <a href="form.html">Fill Out A Form</a>
+          </div>
+        </div>
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>MassAdoption Merch</h2>
+            <a href="https://www.proofofink.com/13-massadoption">We are proud to have partnered with Proof-Of-Ink</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Socials</h2>
+            <a href="https://geyser.fund/project/massadoption">Geyser Fund</a> <a href="https://github.com/Chepenik/massadoption.net">Github</a>
+            <a href="https://www.youtube.com/@massadoptionbtc">Youtube</a> <a href="https://twitter.com/BTC_Mass">Twitter</a>
+          </div>
+        </div>
+      </div>
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="/" id="footer__logo"><img src="images/logo.png" id="navbar__logo" alt=""></a>
+          </div>
+          <p class="website__rights">MassAdoption LLC 2023. All rights reserved</p>
+          <div class="social__icons">
+            <a href="https://geyser.fund/project/massadoption" class="social__icon--link" target="_blank"
+              ><i class="fab fa-bitcoin"></i
+            ></a>
+            <a href="https://github.com/Chepenik/massadoption.net" class="social__icon--link" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a href="https://www.youtube.com/@massadoptionbtc" class="social__icon--link" target="_blank"
+              ><i class="fab fa-youtube"></i
+            ></a>
+            <a href="https://twitter.com/BTC_Mass" class="social__icon--link" target="_blank"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+      <script src="https://embed.twentyuno.net/js/app.js"></script>
+      <script src="app.js"></script>
+    </div>
+    
+  </body>
+</html>
