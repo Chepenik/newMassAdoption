@@ -87,8 +87,13 @@
     border-radius: 4px;
     background: #833ab4;
     background: -webkit-linear-gradient(to right, #000000, #000000, #000000);
-    background: linear-gradient(to right, #29149c, #fc7d07, #ff9704);
+    background: linear-gradient(to right, #ed1a52,  #000000, #0501d1);
     color: #fff;
+    transition: all 0.3s ease;
+  }
+
+  .button:hover {
+    color: #9518fc;
     transition: all 0.3s ease;
   }
   
@@ -225,7 +230,7 @@
     ); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(
       to right,
-      #fffb00,
+      #ff8400,
       #ff0000
     ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: 100%;

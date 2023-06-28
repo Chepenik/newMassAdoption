@@ -1,0 +1,267 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+.navbar {
+    background-color: #212121;
+    color: #fff;
+}
+.navbar img {
+    max-width: 100px;
+    max-height: 100px;
+  }
+  
+  .navbar-brand {
+    font-size: 40px;
+}
+
+.nav-link {
+    color: #fff;
+}
+  /* Styles for desktop screens */
+.speaker-img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+
+/* Styles for mobile screens */
+@media (max-width: 767px) {
+    .speaker-img {
+        max-width: auto;
+        height: 100%;
+        object-fit: contain;
+    }
+}
+
+/* Container element for the img tags */
+.card-img-top {
+    max-width: 100%;
+}
+
+
+section {
+    padding: 50px 0;
+    background-color: #fff;
+}
+h2 {
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333;
+}
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    color: #333;
+}
+h3 {
+    color: white;
+}
+.btn {
+    background-color: #f78c25;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+.btn:hover {
+    background-color: #333;
+    color: #fff;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+}
+#speakers {
+    background-color: #f7f7f7;
+}
+
+#schedules {
+    position: relative;
+    background-image: url("https://nostr.build/p/nb1559.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 500px; /* adjust the height based on your image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    font-weight: bold;
+}
+
+#schedules::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 0.4;
+}
+
+#schedules .container {
+    position: relative;
+    z-index: 1;
+}
+
+
+#sponsors {
+    background-color: #f7f7f7;
+    color: black;
+}
+#faq {
+    background-color: #eee;
+    background-image: url("https://nostr.build/p/nb1548.png");
+    background-size: cover;
+    background-position: center;
+    height: 600px; /* adjust the height based on your image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+
+
+#sponsors {
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #buy-ticket {
+    background-image: url("https://nostr.build/p/nb1656.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 500px; /* adjust the height based on your image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#buy-ticket button {
+    font-size: 40px;
+    padding: 40px 80px;
+    border: none;
+    border-radius: 40px;
+    background-color:#f79512; /* orange color */
+    color: #fff;
+}
+
+#buy-ticket button:hover {
+    background-color: white; 
+    color: black;
+    cursor: pointer;
+}
+
+
+#sponsors img {
+    width: 250px;
+    height: auto;
+    margin: 10px; /* 20px of space between each image */
+  }
+
+  #sponsors a {
+    color: black;
+    }
+  
+    @media (max-width: 767px) {
+        .container {
+          max-width: 100%;
+          padding: 0;
+        }
+        .card {
+          margin-bottom: 1rem;
+        }
+      }
+    
+#sponsors h2 {
+        border: 5px solid black;
+        padding: 10px;
+      }
+
+.testing {
+        margin: 20px auto;
+        max-width: 800px; /* This line is optional and sets a maximum width for the content */
+      }
+      
+.center-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+#new-section {
+        background-color: #212121;
+        padding: 50px 0;
+        background-image: url("https://nostr.build/p/nb3961.jpeg");
+    }
+
+.placeholder-image {
+        width: 250px;
+        height: 250px;
+    }
+
+    #basketball-ticket {
+        background-image: url("https://nostr.build/p/nb6896.jpeg");
+        background-size: cover;
+        background-position: center;
+        height: 500px; /* adjust the height based on your image */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #basketball-ticket button {
+        font-size: 40px;
+        padding: 40px 80px;
+        border: none;
+        border-radius: 40px;
+        background-color:#f79512; /* orange color */
+        color: #fff;
+    }
+
+    #basketball-ticket button:hover {
+        background-color: white; 
+        color: black;
+        cursor: pointer;
+    }
+
+    #speakers-ticket {
+        background-image: url("https://nostr.build/p/nb6477.png");
+        background-size: cover;
+        background-position: center;
+        height: 500px; /* adjust the height based on your image */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #speakers-ticket button {
+        font-size: 40px;
+        padding: 40px 80px;
+        border: none;
+        border-radius: 40px;
+        background-color:#f79512; /* orange color */
+        color: #fff;
+    }
+
+    #speakers-ticket button:hover {
+        background-color: white; 
+        color: black;
+        cursor: pointer;
+    }
+      
+      #bottom-section h4, #bottom-section img {
+        margin: 20px;
+        width: auto;
+      }
