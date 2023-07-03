@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MassAdoption's Team</title>
+    <style>
+        .team-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .team-member {
+            margin: 20px;
+            text-align: center;
+        }
+
+        .team-member img {
+            width: 200px;
+            border-radius: 50%;
+        }
+
+        .team-member h3 {
+            margin-top: 10px;
+        }
+
+        .team-member .tooltip {
+            position: relative;
+            display: inline-block;
+        }
+
+        .team-member .tooltip .tooltiptext {
+            visibility: hidden;
+            width: 150px;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 5px;
+            position: absolute;
+            z-index: 1;
+            bottom: 125%;
+            left: 50%;
+            transform: translateX(-50%);
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .team-member .tooltip:hover .tooltiptext {
+            visibility: visible;
+            opacity: 1;
+        }
+    </style>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <h4 class="stat-title">Meet The Team</h4>
+
+    <div class="team-container">
+        <div class="team-member">
+            <div class="tooltip">
+                <a href="#">
+                    <img src="images/brendan copy.jpeg" alt="Brendan's photo">
+                    <span class="tooltiptext">
+                        <i class="fab fa-twitter"></i> BrendanQuinn84
+                    </span>
+                </a>
+            </div>
+            <div class="hover-items">
+                <h3>Brendan</h3>
+            </div>
+        </div>
+
+        <div class="team-member">
+            <div class="tooltip">
+                <a href="#">
+                    <img src="images/Ron copy.jpeg" alt="Ron's photo">
+                    <span class="tooltiptext">
+                        <i class="fab fa-twitter"></i> rounakskm
+                    </span>
+                </a>
+            </div>
+            <div class="hover-items">
+                <h3>Ron</h3>
+            </div>
+        </div>
+
+        <div class="team-member">
+            <div class="tooltip">
+                <a href="#">
+                    <img src="images/conor copy.jpg" alt="Conor's photo">
+                    <span class="tooltiptext">
+                        <i class="fab fa-twitter"></i> ConorChepenik
+                    </span>
+                </a>
+            </div>
+            <div class="hover-items">
+                <h3>Conor</h3>
+            </div>
+        </div>
+
+        <div class="team-member">
+            <div class="tooltip">
+                <a href="#">
+                    <img src="images/jeff copy.jpeg" alt="Jeff's photo">
+                    <span class="tooltiptext">
+                        <i class="fab fa-twitter"></i> BTC_MS_THRIVING
+                    </span>
+                </a>
+            </div>
+            <div class="hover-items">
+                <h3>Jeff</h3>
+            </div>
+        </div>
+
+        <div class="team-member">
+            <div class="tooltip">
+                <a href="#">
+                    <img src="images/phil copy.jpg" alt="Phil's photo">
+                    <span class="tooltiptext">
+                        <i class="fab fa-twitter"></i> NEEDcreations
+                    </span>
+                </a>
+            </div>
+            <div class="hover-items">
+                <h3>Phil</h3>
+            </div>
+        </div>
+
+        <div class="team-member">
+            <div class="tooltip">
+                <a href="#">
+                    <img src="images/brandonh copy.jpg" alt="Brandon's photo">
+                    <span class="tooltiptext">
+                        <i class="fab fa-twitter"></i> BitcoinDale
+                    </span>
+                </a>
+            </div>
+            <div class="hover-items">
+                <h3>Brandon</h3>
+            </div>
+        </div>
+
+        <div class="team-member">
+            <div class="tooltip">
+                <a href="#">
+                    <img src="images/greg copy.jpeg" alt="Greg's photo">
+                    <span class="tooltiptext">
+                        <i class="fab fa-twitter"></i> gwhoffmeister
+                    </span>
+                </a>
+            </div>
+            <div class="hover-items">
+                <h3>Greg</h3>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    <script>
+        function showBio(name, bio) {
+            alert(name + '\n' + bio);
+        }
+    </script>
+</body>
+</html>

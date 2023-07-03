@@ -93,12 +93,12 @@
   }
 
   .button:hover {
-    color: #9518fc;
+    color: #ffa200;
     transition: all 0.3s ease;
   }
   
   .navbar__links:hover {
-    color: #9518fc;
+    color: #ffa200;
     transition: all 0.3s ease;
   }
   
@@ -307,7 +307,7 @@
     background: linear-gradient(
       to right,
       #0501d1,
-      #949191
+      #000000
     ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: 100%;
     -webkit-background-clip: text;
@@ -326,8 +326,8 @@
   .main__btn {
     font-size: 1.8rem;
     background: #833ab4;
-    background: -webkit-linear-gradient(to right, #fff, #ed1a52, #0501d1);
-    background: linear-gradient(to right,  #ed1a52, #ffffff, #0501d1);
+    background: -webkit-linear-gradient(to right, #000000, #ed1a52, #0501d1);
+    background: linear-gradient(to right,  #ed1a52, #000000, #0501d1);
     padding: 20px 60px;
     border: none;
     border-radius: 4px;
@@ -341,7 +341,7 @@
   .main__btn a {
     position: relative;
     z-index: 2;
-    color: #000000;
+    color: #ffffff;
     text-decoration: none;
   }
   
